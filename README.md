@@ -2,9 +2,9 @@
 
 ## Overview | 简介
 
-**EN**: Dataset A is a self-constructed UAV aerial dataset for single-class (person) object detection, used for model training, ablation studies, and model comparison. It contains 2,283 UAV aerial images at 800×800 resolution with 8,367 person annotations. Under 640×640 input resolution, 97.04% of targets are smaller than 32×32 pixels, making it a typical representative of complex search-and-rescue (SAR) scenes with numerous occluded samples.
+**EN**: Dataset A is a self-constructed UAV aerial dataset for single-class (person) object detection, used for model training, component contribution analysis, and model comparison. It contains 2,283 UAV aerial images at 800×800 resolution with 8,367 person annotations. Under 640×640 input resolution, 97.04% of targets are smaller than 32×32 pixels, making it a typical representative of complex search-and-rescue (SAR) scenes with numerous occluded samples.
 
-**中文**：数据集A为自研无人机航拍数据集，面向单类（person）目标检测任务，用于模型训练、消融实验与模型对比。数据集包含2283张800×800分辨率的航拍图像，共8367个人体目标标注。640×640输入尺寸下小于32×32像素的小目标占比达97.04%，存在大量目标遮挡样本，是复杂搜救（SAR）场景的典型代表。
+**中文**：数据集A为自研无人机航拍数据集，面向单类（person）目标检测任务，用于模型训练、成分贡献分析和模型比较。数据集包含2283张800×800分辨率的航拍图像，共8367个人体目标标注。640×640输入尺寸下小于32×32像素的小目标占比达97.04%，存在大量目标遮挡样本，是复杂搜救（SAR）场景的典型代表。
 
 ## Statistics | 数据统计
 
@@ -23,9 +23,9 @@
 
 ## Annotation Format | 标注格式
 
-**EN**: Annotations follow the YOLO format: one `.txt` file per image, single class `person` (class_id = 0). Note: this repository releases **images only**; annotations are available upon reasonable request (contact: [待填]).
+**EN**: Annotations follow the YOLO format: one `.txt` file per image, single class `person` (class_id = 0). Note: this repository releases **images only**; annotations are available upon reasonable request (contact: wangguoxu@sylu.edu.cn).
 
-**中文**：标注采用 YOLO 格式，每张图像对应一个 `.txt` 标签文件，单类 `person`（class_id = 0）。注意：本仓库仅发布图像，标注可通过合理申请联系作者获取（联系方式：[待填]）。
+**中文**：标注采用 YOLO 格式，每张图像对应一个 `.txt` 标签文件，单类 `person`（class_id = 0）。注意：本仓库仅发布图像，标注可通过合理申请联系作者获取（联系方式：wangguoxu@sylu.edu.cn）。
 
 ## Dataset Structure | 目录结构
 
@@ -54,4 +54,10 @@ images/
 
 ## Authors & Contact | 作者与联系方式
 
-[待填]
+**EN**: Authors: Wenbo Chang, Guoxu Wang, Umar Yahya
+
+Corresponding author: Guoxu Wang (wangguoxu@sylu.edu.cn)
+
+**中文**：作者：Wenbo Chang、Guoxu Wang、Umar Yahya
+
+通讯作者：Guoxu Wang（wangguoxu@sylu.edu.cn）
